@@ -1,0 +1,71 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(162, 243, 180);
+}
+.header{
+    height: 6em;
+    padding: 4em;
+    font-size: 3em;
+    background-image: url(../imgs/portada.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.header h1{
+    margin: 0px;
+    font-weight: 900;
+    font-size: 3em;
+    text-align: right;
+    color: black;
+}
+
+.header p{
+    text-align: right;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.productos{
+    width: 80%;
+    margin: auto;
+}
+.productos td{
+   width: 50%;
+   padding: 2em;
+}
+.productos img{
+    width: 100%;
+    border: solid 3px #000000;
+}
+
+
+img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif
+}
+.detalle{
+    font-size: 2em;
+}
+.precio{
+    font-size: 1.5em;
+}
+.codigo{
+    color: gray;
+    font-size: small;
+    font-style: oblique;
+}
+
+
+.footer{
+    height: 2em;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
